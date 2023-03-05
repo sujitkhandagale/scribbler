@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url('../images/background.jpg')  ;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	margin: 0px;
+}
+
+.header-div {
+	display: flex;
+	align-items: center;
+}
+
+.header-div span {
+	flex-grow: 1;
+}
+
+.heading {
+	font-size: larger;
+}
+
+.heading h1 {
+	margin: 0;
+}
+
+.heading-buttons {
+	display: flex;
+	align-items: center;
+}
+
+.heading-buttons button {
+	padding: 7px 12px;
+	background-color: rgb(15, 102, 202);
+	color: white;
+	margin: 0px 5px;
+}
+
+.heading-description h4 {
+	margin: 0;
+}
